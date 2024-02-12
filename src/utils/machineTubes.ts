@@ -1,6 +1,5 @@
-import { uuid } from 'uuidv4';
-
-import type { Rack, Tube } from '@/types/types';
+import type { Rack, Tube } from "@/types/types";
+import { v4 } from "uuid";
 
 const createRack = () => {
   const tubes: Tube[] = [];
@@ -24,7 +23,7 @@ const createRack = () => {
   };
 
   return {
-    id: uuid(),
+    id: v4(),
     tubes,
     canAddTube,
     addTube,

@@ -2,7 +2,7 @@ export const TUBES = [
   {
     id: "08ad693e-f5c4-44f2-872a-67130971139d",
     age: 13,
-    name: "Damian Lillard",
+    name: "Damian Kalek",
     company: "A",
     district: "District 1",
     visionDefect: "Red-Green",
@@ -10,7 +10,7 @@ export const TUBES = [
   {
     id: "f2168872-1063-4f29-88aa-03c2e36297bd",
     age: 13,
-    name: "LeBron James",
+    name: "Stefan Test",
     company: "B",
     district: "District 2",
     visionDefect: "Myopia",
@@ -18,7 +18,7 @@ export const TUBES = [
   {
     id: "f0ca3a73-1f3d-4df9-85ad-e07999ac910f",
     age: 15,
-    name: "Kevin Durant",
+    name: "Dawid Jakis",
     company: "C",
     district: "District 3",
     visionDefect: "Astigmatism",
@@ -34,7 +34,7 @@ export const TUBES = [
   {
     id: "0e648bfd-4559-4bf3-8a16-c8e764fd29d3",
     age: 17,
-    name: "Kawhi Leonard",
+    name: "Lukasz Doncic",
     company: "E",
     district: "District 5",
     visionDefect: "Red-Green",
@@ -74,7 +74,7 @@ export const TUBES = [
   {
     id: "019b9b0e-153d-4aa1-8e63-2846d0568c1e",
     age: 22,
-    name: "Nikola Jokic",
+    name: "Imie Nazwisko",
     company: "E",
     district: "District 5",
     visionDefect: "Red-Green",

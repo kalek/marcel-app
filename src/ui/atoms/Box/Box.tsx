@@ -1,8 +1,13 @@
 interface BoxProps {
   children: React.ReactNode;
   className?: string;
+  testId?: string;
 }
 
-export const Box = ({ children, className }: BoxProps) => {
-  return <div className={`p-5 border rounded-lg ${className}`}>{children}</div>;
+export const Box = ({ children, className, testId }: BoxProps) => {
+  return (
+    <div data-testid={testId} className={`rounded-lg border p-5 ${className}`}>
+      {children}
+    </div>
+  );
 };
